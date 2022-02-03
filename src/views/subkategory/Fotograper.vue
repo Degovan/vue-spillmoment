@@ -1,0 +1,172 @@
+<template>
+  <div id="subkategory">
+   
+    <div class="box-v1">
+      <div class="container">
+        <div class="head-box">
+          <h2>Kategori : Fotografer</h2>
+          <p>Temukan kategori sesuai dengan keinginanmu.</p>
+
+          <div class="select-box">
+            <div class="flex">
+              <div class="col">
+                <select name="" id="">
+                  <option value="default">Provinsi</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="col">
+                <select name="" id="">
+                  <option value="default">Harga</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div class="col">
+                <button>Cari</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper-card">
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/bayi1.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 3.000.000</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/photograph1.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 1.500.000</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/bayi2.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 2.899.999</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/bayi3.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 2.200.000</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/bayi4.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 7.500.000</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://cdn.spillmoment.id/img/bayi5.jpg"
+              alt="Spillmoment fotografer image"
+            />
+            <!-- bagian content card -->
+            <div class="content-card">
+              <h1>Sewa Fotografer</h1>
+              <h2>Rp 3.500.000</h2>
+              <p>Fotografer</p>
+            </div>
+            <div class="footer-card">
+              <a href="#"
+                ><fa :icon="['fas', 'map-marker-alt']" /><span
+                  >Tenggarang</span
+                ></a
+              >
+              <a href="#"><fa :icon="['fas', 'heart']" /><span>100</span></a>
+              <a href="#"><fa :icon="['fas', 'star']" /><span>5.0</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+
+  </div>
+</template>
+<style scoped></style>

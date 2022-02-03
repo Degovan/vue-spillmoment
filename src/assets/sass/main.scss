@@ -1,0 +1,74 @@
+@import "./@mediaqueries/responsive.scss";
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+:root {
+  --plyr-color-main: #242329;
+  --plyr-video-control-color: #f5c6a5;
+  --plyr-control-radius: 8px;
+  --plyr-font-family: 'Poppins', sans-serif;
+}
+.closebar {
+  display: none;
+}
+input {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+select {
+  outline: none !important;
+}
+button {
+  cursor: pointer;
+  transition: 0.4s ease;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  &:active {
+    transform: translateY(20px);
+  }
+}
+.plyr__controls {
+  &:active {
+    transform: none;
+  }
+  button {
+    &:active {
+      transform: none;
+    }
+  }
+}
+.plyr {
+  button {
+    &:active {
+      transform: none;
+    }
+  }
+}
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+// scss import
+
+@import "_variable.scss";
+
+// header import from file
+@import "auth.scss";
+@import "header.scss";
+
+// footer import from file
+@import "footer.scss";
+
